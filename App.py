@@ -4,9 +4,6 @@ import streamlit as st
 import altair as alt
 import time as time
 import datetime as datetime
-from sqlalchemy import URL
-from sqlalchemy import create_engine
-from sqlalchemy import select
 import pyodbc
 from PIL import Image
 import openpyxl
