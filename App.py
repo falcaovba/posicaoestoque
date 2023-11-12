@@ -4,10 +4,7 @@ import streamlit as st
 import altair as alt
 import time as time
 import datetime as datetime
-import pyodbc
 from PIL import Image
-import openpyxl
-import xlsxwriter
 from io import BytesIO
 output = BytesIO()
 import warnings
