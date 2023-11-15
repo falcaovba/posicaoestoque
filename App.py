@@ -9,7 +9,7 @@ from io import BytesIO
 output = BytesIO()
 import warnings
 warnings.simplefilter("ignore")
-import pymssql
+
 
 arquivo = 'C:/Users/intel/Documents/OneDrive/Inteligencia/Estoque Pneus/posicao.xlsx'
 
