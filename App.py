@@ -217,9 +217,6 @@ col2.metric("TT Peças", round(df_posic['PeçasTT'].sum()))
 
 st.markdown("---")
 
-from io import BytesIO
-import streamlit as st
-
 def to_excel(df_posic: pd.DataFrame):
     in_memory_fp = BytesIO()
     df_posic.to_excel(in_memory_fp,index=False)
