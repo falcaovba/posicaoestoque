@@ -12,7 +12,6 @@ warnings.simplefilter("ignore")
 
 
 arquivo = 'C:/Users/intel/Documents/OneDrive/Inteligencia/Estoque Pneus/posicao.xlsx'
-
 df = pd.read_excel(arquivo)
 
 ## df_posicao DE ESTQUE ##
