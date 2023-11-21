@@ -153,7 +153,7 @@ st.set_page_config(
 
     ## Logo e Cabeçalho
 logo_teste = Image.open('LogoDafonte.jpg')
-colA, colB = st.columns([1,9])
+colA, colB = st.columns([1,8])
 colA.image(
     logo_teste,
     width=150
