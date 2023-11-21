@@ -168,7 +168,7 @@ DFabricante = st.selectbox(
     "Fabricante:", 
     options=df_df_posicao['Fabricante'].unique(),
     #options=['PIRELLI','SESTANTE','ANTEO','CASUMINA','ADVANCE','LING LONG','DOUBLE STAR','MERIDIONAL','VIPAL','JINYU','JK TYRE','MAGNUM','ROADX', 'SPEED MAX', 'X-BRI', 'WESTLAKE',' VIKRANT'],
-    index=16,
+    index=15,
     placeholder="Selecione o fabricante...")
 DMedida = st.selectbox(
     "Medida:", 
