@@ -152,7 +152,7 @@ st.set_page_config(
 )
 
     ## Logo e Cabeçalho
-logo_teste = Image.open('C:/Users/intel/Documents/OneDrive/Inteligencia/Estoque Pneus/imagens/LogoDafonte.jpg')
+logo_teste = Image.open('LogoDafonte.jpg')
 colA, colB = st.columns([1,9])
 colA.image(
     logo_teste,
